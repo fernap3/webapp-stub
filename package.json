@@ -1,0 +1,24 @@
+{
+  "name": "mdn-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/webserver/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fernap3/sql": "^1.0.0",
+    "@types/compression": "0.0.36",
+    "@types/dotenv": "^6.1.0",
+    "@types/express": "^4.16.0",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "get-random-values": "^1.2.0"
+  }
+}
